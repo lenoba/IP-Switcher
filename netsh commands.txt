@@ -1,0 +1,7 @@
+netsh interface show interface
+
+netsh interface ip set address "connection name" static 192.168.0.101 255.255.255.0 192.168.0.1
+
+netsh interface ip add dns "connection name" 8.8.8.8
+
+netsh interface ip add dns "connection name" 8.8.4.4 index=2
